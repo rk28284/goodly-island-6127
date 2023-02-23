@@ -1,5 +1,6 @@
 import React from 'react'
 import { Text } from '@chakra-ui/react'
+import Footer from './Footer'
 const LandingPage = () => {
   return (
     <div>
@@ -16,6 +17,7 @@ const LandingPage = () => {
       Select a different Location
     </Text>
       </div>
+      <Footer/>
     </div>
   )
 }
