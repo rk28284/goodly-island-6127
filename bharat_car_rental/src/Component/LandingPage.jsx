@@ -1,8 +1,17 @@
 import React from 'react'
 import { Box, Select, Text } from '@chakra-ui/react'
+import {
+  FormControl,
+  FormLabel,
+  FormErrorMessage,
+  FormHelperText,
+} from '@chakra-ui/react'
 import Footer from './Footer'
+import { useNavigate } from 'react-router-dom'
+import Pune from '../Page/Pune'
 
 const LandingPage = () => {
+  const navigate=useNavigate(<Pune/>)
   return (
     <div>
 
@@ -22,11 +31,19 @@ const LandingPage = () => {
       <div>
        <Box>
       
-      <Select variant="flushed" ml={3}  placeholder="Themed flushed select">
-          <option value="option1">Option 1</option>
-          <option value="option2">Option 2</option>
-          <option value="option3">Option 3</option>
-        </Select>
+       <FormControl>
+  <FormLabel>Choose  Your Favourete City</FormLabel>
+  <Select onChange={navigate} placeholder='Select City'textAlign={"left"}>
+    <option>Pune</option>
+    <option>Delhi</option>
+    <option>Lucknow</option>
+    <option>Patna</option>
+    <option>Jaipur</option>
+    <option> Siliguri </option>
+    <option>Bhubaneswar</option>
+    <option>Raipur</option>
+  </Select>
+</FormControl>
         </Box> 
       </div>
       <br />

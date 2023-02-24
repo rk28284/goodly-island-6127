@@ -3,8 +3,9 @@ import {Route,Routes} from "react-router-dom"
 import BecomeHost from '../Page/BecomeHost'
 import Login from '../Page/Login'
 import Pune from '../Page/Pune'
-import Admin from './admin'
+import Admin from './Admin'
 import LandingPage from './LandingPage'
+import NotFound from '../Page/NotFound'
 
 const AllRoute = () => {
   return (
