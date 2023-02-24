@@ -1,9 +1,11 @@
 import React from 'react'
-import { Text } from '@chakra-ui/react'
+import { Box, Select, Text } from '@chakra-ui/react'
 import Footer from './Footer'
+
 const LandingPage = () => {
   return (
     <div>
+
       <div>
         <img width="100%" src="https://www.zoomcar.com/img/background.png" alt="ladingPage" />
       </div>
@@ -17,6 +19,18 @@ const LandingPage = () => {
       Select a different Location
     </Text>
       </div>
+      <div>
+       <Box>
+      
+      <Select variant="flushed" ml={3}  placeholder="Themed flushed select">
+          <option value="option1">Option 1</option>
+          <option value="option2">Option 2</option>
+          <option value="option3">Option 3</option>
+        </Select>
+        </Box> 
+      </div>
+      <br />
+      <br />
       <Footer/>
     </div>
   )
