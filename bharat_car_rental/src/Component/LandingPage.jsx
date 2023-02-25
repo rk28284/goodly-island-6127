@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { Box, Select, Text } from '@chakra-ui/react'
 import {FormControl,FormLabel,} from '@chakra-ui/react'
 import Footer from './Footer'
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 const LandingPage = () => {
   const navigate=useNavigate()
@@ -30,7 +30,7 @@ const LandingPage = () => {
       
        <FormControl>
   <FormLabel>Choose  Your Favourete City</FormLabel>
-  <Select onChange={navigate("/pune")} placeholder='Select City'textAlign={"left"}>
+  <Select onChange={<Link to={"/pune"}>Pune</Link>} placeholder='Select City'textAlign={"left"}>
     console.log("vkjvfi")
     <option>Pune</option>
     <option>Delhi</option>
