@@ -1,19 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Box, Select, Text } from '@chakra-ui/react'
-import {
-  FormControl,
-  FormLabel,
-  FormErrorMessage,
-  FormHelperText,
-} from '@chakra-ui/react'
+import {FormControl,FormLabel,} from '@chakra-ui/react'
 import Footer from './Footer'
 import { useNavigate } from 'react-router-dom'
-import Pune from '../Page/Pune'
 
 const LandingPage = () => {
-  const navigate=useNavigate(<Pune/>)
+  const navigate=useNavigate()
+
+ 
   return (
     <div>
+
 
       <div>
         <img width="100%" src="https://www.zoomcar.com/img/background.png" alt="ladingPage" />
@@ -33,7 +30,7 @@ const LandingPage = () => {
       
        <FormControl>
   <FormLabel>Choose  Your Favourete City</FormLabel>
-  <Select onChange={navigate} placeholder='Select City'textAlign={"left"}>
+  <Select onChange={navigate("/pune")} placeholder='Select City'textAlign={"left"}>
     console.log("vkjvfi")
     <option>Pune</option>
     <option>Delhi</option>

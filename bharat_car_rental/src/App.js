@@ -1,13 +1,14 @@
-import logo from './logo.svg';
+
 import './App.css';
 import LandingPage from './Component/LandingPage';
-import Footer from './Component/Footer';
+
+import AllRoute from './Component/AllRoute';
 
 function App() {
   return (
     <div className="App">
      <LandingPage/>
- 
+ <AllRoute/>
     </div>
   );
 }
