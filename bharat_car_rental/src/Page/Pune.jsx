@@ -1,12 +1,11 @@
 import React from 'react'
-import AllRoute from '../Component/AllRoute'
 import Navbar from '../Component/Navbar'
 
 const Pune = () => {
   return (
     <div>
   <Navbar/>
-  <AllRoute/>
+  <h1>All Routes hai bhai</h1>
     </div>
   )
 }
