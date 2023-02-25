@@ -34,6 +34,7 @@ const LandingPage = () => {
        <FormControl>
   <FormLabel>Choose  Your Favourete City</FormLabel>
   <Select onChange={navigate} placeholder='Select City'textAlign={"left"}>
+    console.log("vkjvfi")
     <option>Pune</option>
     <option>Delhi</option>
     <option>Lucknow</option>
