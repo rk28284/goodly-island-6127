@@ -1,5 +1,5 @@
 import React from 'react'
-import { Text,HStack,MdGroupWork } from '@chakra-ui/react'
+import { Text,HStack } from '@chakra-ui/react'
 import { Icon } from '@chakra-ui/react'
 const NotFound = () => {
   return (
