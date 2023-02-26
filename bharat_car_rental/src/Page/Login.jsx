@@ -1,6 +1,6 @@
 import { useContext, useState } from "react";
 import { Link,useNavigate } from "react-router-dom";
-import { AuthContext } from "../Context/AuthContext";
+import {AuthContext} from "../Context/AuthContextProvider"
 function Login() {
   const [email,setEmail]=useState("eve.holt@reqres.in")
   const [password,setPassword]=useState("cityslicka")
