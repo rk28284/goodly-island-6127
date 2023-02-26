@@ -1,9 +1,9 @@
 import React from 'react'
 import {Route,Routes} from "react-router-dom"
 import BecomeHost from '../Page/BecomeHost'
-import Login from '../Page/Login'
+import Login from "../Page/Login"
 import Pune from '../Page/Pune'
-import Admin from './Admin'
+import Admin from "../Admin/Admin"
 import LandingPage from '../Component/LandingPage'
 import NotFound from '../Page/NotFound'
 

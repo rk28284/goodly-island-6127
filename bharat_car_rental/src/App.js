@@ -1,14 +1,14 @@
 
 import './App.css';
 import LandingPage from './Component/LandingPage';
-
-import AllRoute from './Component/AllRoute';
+import AllRoute from "./AllRoutes/AllRoute"
 
 function App() {
   return (
     <div className="App">
+      <AllRoute/>
      <LandingPage/>
- <AllRoute/>
+
     </div>
   );
 }
