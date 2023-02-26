@@ -5,18 +5,12 @@ import { Box, Button, Flex, Img } from "@chakra-ui/react";
 import React, { useState } from "react";
 import { useEffect } from "react";
 
-// const links = [
-//     {
-//       path: "/",
-//       title: "Request Demo"
-//     },
-   
-//   ]
 const links=[
     { path:"/",title:"Select City"},
-    { path:"/pune",title:"About"},
-    { path:"/becomehost",title:"Contact"},
-    {   path:"/login",title:"Login/Signup"},
+    { path:"/pune",title:"Pune"},
+    { path:"/becomehost",title:"BecomeHost"},
+    {path:"/login",title:"Login/Signup"},
+    {path:"/admin",title:"Admin"}
 ]
 
 

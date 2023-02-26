@@ -77,7 +77,7 @@ function Admin() {
               <label>car title</label>
               {/* keep an input tag with name attribute as "name" type as "text" and placeholder as "Name" */}
               <input type="text"  name="car_title"
-                placeholder="car_title"
+                placeholder="Enter Your Car Title"
                  value={state.car_title}
                  onChange={(e) => dispatch({type:"car_title" , payload:e.target.value})}
               />
@@ -86,7 +86,7 @@ function Admin() {
               <label>car item</label>
               {/* keep an input tag with name attribute as "name" type as "text" and placeholder as "Name" */}
               <input type="text"  name="caritem"
-                placeholder="caritem"
+                placeholder="Enter Your Car Item"
                  value={state.caritem}
                  onChange={(e) => dispatch({type:"caritem" , payload:e.target.value})}
               />
@@ -95,7 +95,7 @@ function Admin() {
               <label>car item2</label>
               {/* keep an input tag with name attribute as "name" type as "text" and placeholder as "Name" */}
               <input type="text"  name="caritem2"
-                placeholder="caritem2"
+                placeholder="Enter Your car Item2"
                  value={state.caritem2}
                  onChange={(e) => dispatch({type:"caritem2" , payload:e.target.value})}
               />
@@ -104,7 +104,7 @@ function Admin() {
               <label>car item3</label>
               {/* keep an input tag with name attribute as "name" type as "text" and placeholder as "Name" */}
               <input type="text"  name="caritem3"
-                placeholder="caritem3"
+                placeholder=" Enter Your car Item3"
                  value={state.caritem3}
                  onChange={(e) => dispatch({type:"caritem3" , payload:e.target.value})}
               />
@@ -113,7 +113,7 @@ function Admin() {
               <label>revenue price discounted</label>
               {/* keep an input tag with name attribute as "name" type as "text" and placeholder as "Name" */}
               <input type="text"  name="revenuepricediscounted"
-                placeholder="revenue price discounted"
+                placeholder="Enter Your Revenue Price Discounted"
                  value={state.revenuepricediscounted}
                  onChange={(e) => dispatch({type:"revenuepricediscounted" , payload:e.target.value})}
               />
@@ -122,7 +122,7 @@ function Admin() {
               <label>car item3</label>
               {/* keep an input tag with name attribute as "name" type as "text" and placeholder as "Name" */}
               <input type="text"  name="revenuepriceoriginal"
-                placeholder="revenuepriceoriginal"
+                placeholder="Enter Your Revenue Price Original"
                  value={state.caritem3}
                  onChange={(e) => dispatch({type:"revenuepriceoriginal" , payload:e.target.value})}
               />
@@ -131,7 +131,7 @@ function Admin() {
               <label>car item3</label>
               {/* keep an input tag with name attribute as "name" type as "text" and placeholder as "Name" */}
               <input type="text"  name="revenuedistance"
-                placeholder="revenuedistance"
+                placeholder="Enter Your Revenue Distance"
                  value={state.revenuedistance}
                  onChange={(e) => dispatch({type:"revenuedistance" , payload:e.target.value})}
               />
@@ -140,7 +140,7 @@ function Admin() {
               <label>car item3</label>
               {/* keep an input tag with name attribute as "name" type as "text" and placeholder as "Name" */}
               <input type="text"  name="revenuedistance"
-                placeholder="revenuedistance"
+                placeholder="Enter Your Revenue Distance"
                  value={state.revenuedistance}
                  onChange={(e) => dispatch({type:"revenuedistance" , payload:e.target.value})}
               />
@@ -162,14 +162,14 @@ function Admin() {
          <thead>
            <tr>
              <th>S.No</th>
-             <th>car_title</th>
-             <th>caritem</th>
-             <th>caritem2</th>
-             <th>caritem3</th>
-             <th>revenuepricediscounted</th>
-             <th>revenuepriceoriginal</th>
-             <th>revenuedistance</th>
-             <th>ratingtext</th>
+             <th>Car Title-</th>
+             <th>car item</th>
+             <th>car item2</th>
+             <th>car item3</th>
+             <th>revenue price discounted</th>
+             <th>revenue price original</th>
+             <th>revenue distance</th>
+             <th>rating text</th>
            </tr>
          </thead>
          <tbody>
