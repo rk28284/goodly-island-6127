@@ -60,9 +60,9 @@ return (
               <NavLink to="/" >
                 <Box marginTop="10px">
             
-                  <Img boxSize="15%" src="https://www.zoomcar.com/assets/component-images/zms-logo-white.2af37707ebe1f0942fd6285bb0fdf3d9.png" />
+                  <Img boxSize="15%" src="" />
                 </Box>
-                <h1>vsdv</h1>
+             
               </NavLink>
            
               <Box marginTop="10px">
