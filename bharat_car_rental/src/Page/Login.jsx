@@ -29,11 +29,11 @@ function Login() {
  }
    return (
      <div>
-       <form data-testid="login-form" onSubmit={handleSubmit}>
+       <form onSubmit={handleSubmit}>
          <div>
            <label>
              Email
-             <input data-testid="email-input" type="email" placeholder="email"
+             <input type="email" placeholder="email"
              value={email} onChange={(e)=>setEmail(e.target.value)} />
            </label>
          </div>
@@ -41,7 +41,7 @@ function Login() {
            <label>
              Password
              <input
-               data-testid="password-input"
+              
                type="password"
                placeholder="password"
                value={password} onChange={(e)=>setPassword(e.target.value)}
@@ -49,7 +49,7 @@ function Login() {
            </label>
          </div>
          <div>
-           <input data-testid="form-submit" type="submit" value="SUBMIT" />
+           <input type="submit" value="SUBMIT" />
          </div>
        </form>
        <div>

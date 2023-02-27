@@ -53,16 +53,20 @@ return (
           <Box w="100%" height="60px" 
           // border="solid red 1px" 
           >
+            
             <Flex w="60%" margin="auto" alignItems='center' 
             // border="solid red 1px" 
             justifyContent="space-around" >
               <NavLink to="/" >
                 <Box marginTop="10px">
+            
                   <Img boxSize="15%" src="https://www.zoomcar.com/assets/component-images/zms-logo-white.2af37707ebe1f0942fd6285bb0fdf3d9.png" />
                 </Box>
+                <h1>vsdv</h1>
               </NavLink>
-
+           
               <Box marginTop="10px">
+        
                 {links.map((link) => (
                   <NavLink key={link.path} to={link.path}>
                     <Button color="red" className="NavbarHover" fontSize='1.1vw'>{link.title}</Button>
