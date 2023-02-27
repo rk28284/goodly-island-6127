@@ -1,5 +1,8 @@
 import { useReducer, useState } from "react";
-
+import {Box,Button,Center,Checkbox,FormControl,Heading,FormLabel,
+Input,Select} from "@chakra-ui/react"
+import {
+  Table,Thead,Tbody, Tfoot,Tr, Th,Td,TableCaption,TableContainer} from '@chakra-ui/react'
 import { UserRow } from "./UserRow";
 
 const initialState = {
@@ -72,7 +75,7 @@ function Admin() {
         <h1>User Form</h1>
       
         <div className="form-wrapper">
-          <form data-testid="form-element" onSubmit={HandleSubmitFrom}>
+          <form  onSubmit={HandleSubmitFrom}>
             <div className="car_title" >
               <label>car title</label>
               {/* keep an input tag with name attribute as "name" type as "text" and placeholder as "Name" */}
@@ -154,7 +157,7 @@ function Admin() {
             </div>
           </form>
         </div>
-
+       
         {/* map through the submittedData and render UserRow component to display the data in tabular format ELSE print "no users found"  in there is no user data */}
 
         { submittedData.length ?
