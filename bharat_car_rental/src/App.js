@@ -8,8 +8,11 @@ import Navbar from './Component/Navbar';
 function App() {
   return (
     <div className="App">
-       <Navbar/>
-      <AllRoute/>
+      
+<Navbar/>
+        <AllRoute/>
+    
+    
 
 
     </div>
