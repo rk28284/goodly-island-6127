@@ -4,7 +4,7 @@ import Navbar from '../Component/Navbar'
 const Pune = () => {
   return (
     <div>
-<Navbar/>
+Welcome to Pune Page
 
     </div>
   )
